@@ -1,0 +1,8 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+togglz:
+  feature-enums: com.example.demo.Features
